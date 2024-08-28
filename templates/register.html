@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <form method="post" action="#">
+        <label for="username">username:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="email">email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="ps">password:</label><br>
+        <input type="password" id="ps" name="password"><br>
+        <input type="submit" value="submit"><br>
+        <p>already have email?<a href="{{url_for('login')}}">login</a></p>
+    </form>
+</body>
+</html>
